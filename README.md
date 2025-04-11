@@ -1,3 +1,23 @@
+## Como rodar os testes com Docker
+
+Para executar os testes de arquitetura (fitness functions) sem precisar ter o Ruby instalado localmente, você pode usar Docker.
+
+1.  **Construa a imagem Docker:**
+
+    ```bash
+    docker build -t ruby-spec-runner .
+    ```
+
+2.  **Execute os testes dentro do contêiner:**
+
+    ```bash
+    docker run --rm ruby-spec-runner
+    ```
+
+    Este comando irá iniciar um contêiner a partir da imagem criada, executar os testes RSpec localizados no diretório `spec`, e remover o contêiner após a execução.
+
+---
+
 **Não deixe a arquitetura depender da memória das pessoas — automatize com fitness functions**
 
 Situação comum:
