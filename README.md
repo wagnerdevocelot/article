@@ -13,7 +13,7 @@ Não faz sentido depender de alguém lembrar disso e apontar manualmente.
 ADR (*Architecture Decision Record*) é um registro formal das decisões arquiteturais tomadas no projeto — uma forma de documentar e justificar as escolhas feitas.
 
 Estou lendo *Software Architecture: The Hard Parts*, e logo no início o livro fala sobre *Fitness Functions*.
-A definição formal de *fitness function* é um mecanismo de verificação objetiva da integridade de características arquiteturais.
+No contexto de arquitetura evolutiva, uma fitness function mede continuamente se os atributos arquiteturais definidos — como isolamento de camadas, desempenho ou acoplamento — estão sendo respeitados conforme o sistema evolui.
 
 Ao automatizar essas verificações, você protege sua arquitetura contra violações não intencionais que, acumuladas, levam à deterioração estrutural ao longo do tempo.
 
